@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is Generative AI?",
+    "expected_answer": "Generative AI creates new content such as text, images, audio and videos."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "expected_answer": "Machine Learning is a branch of AI that learns patterns from data."
+  },
+  {
+    "question": "What is a Large Language Model?",
+    "expected_answer": "A Large Language Model is an AI model trained on large amounts of text to understand and generate language."
+  },
+  {
+    "question": "What is a tokenizer?",
+    "expected_answer": "A tokenizer splits text into smaller units called tokens."
+  },
+  {
+    "question": "What is prompt engineering?",
+    "expected_answer": "Prompt engineering is the process of designing effective instructions for AI models."
+  }
+]
