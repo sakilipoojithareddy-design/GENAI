@@ -1,0 +1,15 @@
+commands:
+
+1.$env:Path += ";$env:LOCALAPPDATA\Programs\Ollama"
+2. ollama --version
+3.ollama pull qwen2.5:0.5b
+>> pulling manifest
+4.ollama run qwen2.5:0.5b
+5.question:Explain Artificial Intelligence in simple words.
+/bye
+6.dir
+7.cd ".\gen-ai = week-2"
+8. python -m pip install -r requirements.txt
+9. python -m unittest test_client.py
+10.python main.py
+Choose provider (gemini/ollama): ollama
