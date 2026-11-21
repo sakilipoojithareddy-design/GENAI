@@ -1,61 +1,100 @@
-WEEK 1 – Gemini API Integration
-Aim
+# WEEK 1 – Gemini API Integration
+
+## Aim
+
 To connect a Python application with Google's Gemini API and generate AI responses using user-provided prompts.
 
-Technologies Used
-Python
-Google Gemini API
-Google GenAI SDK
-Environment Variables (.env)
-Tools Used
-Python
-Visual Studio Code
-Gemini API
-Folder Structure
+## Technologies Used
+
+- Python
+- Google Gemini API
+- Google GenAI SDK
+- Environment Variables (`.env`)
+
+## Tools Used
+
+- Python
+- Visual Studio Code
+- Gemini API
+
+## Folder Structure
+
+```text
 WEEK1/
 ├── main.py
 ├── requirements.txt
 ├── .env
 ├── .gitignore
 └── README.md
-Installation Steps
-Install Python on your system.
+```
 
-Open the WEEK1 folder in VS Code.
+## Installation Steps
 
-Create a virtual environment (optional):
+1. Install Python on your system.
 
+2. Open the WEEK1 folder in VS Code.
+
+3. Create a virtual environment (optional):
+
+```bash
 python -m venv myenv
-Activate the virtual environment:
-myenv\Scripts\activate
-Install the required packages:
-pip install -r requirements.txt
-Create a .env file and add your Gemini API key:
-GEMINI_API_KEY=your_api_key_here
-Note: Never upload your actual API key to GitHub.
+```
 
-Execution Steps
+4. Activate the virtual environment:
+
+```bash
+myenv\Scripts\activate
+```
+
+5. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+6. Create a `.env` file and add your Gemini API key:
+
+```text
+GEMINI_API_KEY=your_api_key_here
+```
+
+**Note:** Never upload your actual API key to GitHub.
+
+## Execution Steps
+
 Run the following command in the terminal:
 
+```bash
 python main.py
-The program connects to the Gemini API.
-Enter a prompt or question.
-The prompt is sent to the Gemini model.
-The Gemini model processes the prompt.
-The model generates an AI response.
-The response is displayed in the terminal.
-Expected Output
+```
+
+1. The program connects to the Gemini API.
+2. Enter a prompt or question.
+3. The prompt is sent to the Gemini model.
+4. The Gemini model processes the prompt.
+5. The model generates an AI response.
+6. The response is displayed in the terminal.
+
+## Expected Output
+
 The program displays an AI-generated response based on the prompt entered by the user.
 
-Example:
+**Example:**
 
 Input:
 
+```text
 What is Artificial Intelligence?
+```
+
 Output:
 
+```text
 Artificial Intelligence is a branch of computer science
 that enables machines to perform tasks that normally
 require human intelligence.
-Result
+```
+
+## Result
+
 Successfully connected a Python application with Google's Gemini API and generated AI responses using user-provided prompts.
